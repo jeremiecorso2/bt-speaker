@@ -50,3 +50,8 @@ echo "done."
 # Finished
 echo
 echo "BT-Speaker has been installed."
+
+#Sound and Jack
+amixer set PCM -- 100%
+sudo amixer cset numid=3 1
+
